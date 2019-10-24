@@ -1,6 +1,6 @@
 # On supprime les bases de données précédentes : 
-  Dogsitter.delete_all
-  Dog.delete_all
+  Dogsitter.destroy_all
+  Dog.destroy_all
   Stroll.delete_all
 
 # On crée 6 promeneurs :
